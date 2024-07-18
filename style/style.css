@@ -13,7 +13,6 @@
 }
 
 body {
-        font-family: 'Miama', sans-serif;
         font-family: "Dancing Script", cursive;
 }
 
@@ -32,7 +31,7 @@ body {
         font-family: "Inter", sans-serif;
         line-height: 2.2;
         font-size: 0.875rem;
-        background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+        background: rgb(17, 17, 17);
         background-repeat: no-repeat;
 }
 
@@ -46,7 +45,7 @@ a {
         text-decoration: none;
 }
 
-/* nav stylig start here */
+/* header stylig start here */
 .nav-main {
 
         width: 1260px;
@@ -87,7 +86,7 @@ a {
         font-weight: 400;
         font-family: Inter;
         color: rgb(255, 255, 255);
-        
+
 }
 
 #Home {
@@ -102,4 +101,149 @@ a {
         background: rgb(230, 83, 60);
 }
 
-/* nav stylig end here */
+/* banner section styling start here */
+.banner_section {
+        display: flex;
+        width: 1450px;
+        height: auto;
+        margin-left: 360px;
+        /* margin: 20px auto; */
+}
+
+/* .banner_continer {
+        width: ;
+} */
+
+.banner_title {
+        width: 520px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 78px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+}
+
+.span_title {
+        font-family: "Dancing Script", cursive;
+        font-weight: 400;
+        font-size: 78px;
+
+}
+
+.banner_discrition {
+        width: 520px;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        line-height: 24px;
+
+}
+
+.btn_pririmary {
+        width: 224px;
+        padding: 16px 40px 16px 40px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        border: none;
+        cursor: pointer;
+}
+
+.btn_downlod {
+        width: 224px;
+        height: 54px;
+        border-radius: 42px;
+        box-sizing: border-box;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+
+}
+
+.banner_img {
+        width: 350px;
+        height: 540x;
+        margin-left: 500px;
+}
+
+.btn_fast {
+        width: 206px;
+        height: 96px;
+        left: 764px;
+        top: 556px;
+}
+
+.btn-secon {
+        position: absolute;
+        width: 193px;
+        height: 98px;
+        left: 1590px;
+        top: 260px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+}
+
+#Paragraph {
+        color: rgba(255, 255, 255, 0.65);
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+}
+
+.btn-fast,
+#bg {
+        background: red;
+}
+
+.btn-fast {
+        position: absolute;
+        width: 193px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
+        margin-left: 1250px;
+        margin-top: -140px;
+
+}
+
+
+
+
+/* banner section styling end here */
+
+
+/* header  stylig end here */
