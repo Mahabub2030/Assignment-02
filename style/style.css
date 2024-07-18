@@ -45,10 +45,6 @@ a {
         text-decoration: none;
 }
 
-img {
-        width: 100%;
-}
-
 /* header stylig start here */
 .nav-main {
 
@@ -242,12 +238,81 @@ img {
         margin-top: -140px;
 
 }
+
 /* banner section styling end here */
 
 
 /* header  stylig end here */
 
-/* main section  */
+/* main section start here  */
+.main_section {
+        width: 1140px;
+        height: 452px;
+        margin: 0 auto;
+
+}
+
+.habit_title {
+        font-size: 48px;
+        font-weight: 800;
+        color: #fff;
+        font-family: Inter;
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+.habit_discrition {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        align-items: center;
+        margin-left: 50px;
+        width: 950px;
+        height: 48px;
+}
+
+#imgig {
+        width: 272px;
+        height: 180px;
+        border-radius: 100%;
+        padding: 20px;
+        align-items: center;
+}
+
+.card {
+        width: 301px;
+        height: 274px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+}
+
+.card_title {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+}
+
+.card_discrition {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+}
+.imagis_section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      
+}
+
+/* main section end here  */
 
 
 /* responsive section start here */
@@ -272,13 +337,6 @@ img {
         .banner_title {
                 font-size: 32px;
         }
-
-       
-
-      
-       
-
-
 }
 
 /* responsive section end here */
