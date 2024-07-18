@@ -45,6 +45,10 @@ a {
         text-decoration: none;
 }
 
+img {
+        width: 100%;
+}
+
 /* header stylig start here */
 .nav-main {
 
@@ -55,7 +59,6 @@ a {
         justify-content: space-between;
         align-items: center;
         padding: 40px;
-        border: 2px solid red;
         margin: 20px auto;
 
 
@@ -77,7 +80,7 @@ a {
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 39px;
-        border: 2px solid red;
+
 
 }
 
@@ -239,11 +242,43 @@ a {
         margin-top: -140px;
 
 }
-
-
-
-
 /* banner section styling end here */
 
 
 /* header  stylig end here */
+
+/* main section  */
+
+
+/* responsive section start here */
+@media screen and (max-width:576px) {
+        .nav-main {
+                flex-direction: column;
+                padding: 20px;
+
+
+        }
+
+        .nav_list {
+                flex-direction: column;
+                display: none;
+        }
+
+        .banner_section {
+                flex-direction: column;
+                padding-left: -50px;
+        }
+
+        .banner_title {
+                font-size: 32px;
+        }
+
+       
+
+      
+       
+
+
+}
+
+/* responsive section end here */
