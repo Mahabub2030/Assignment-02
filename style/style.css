@@ -347,7 +347,8 @@ a {
         line-height: 160%;
         text-align: left;
 }
-.run_content{
+
+.run_content {
         padding-left: 30px;
         align-items: center;
         justify-content: center;
@@ -366,10 +367,131 @@ a {
         height: 80%;
         padding: 10px;
         border-radius: 50px;
-        margin: 50px 100px ;
+        margin: 50px 100px;
 }
 
 /* run section end here */
+
+/* Bmi styling start here */
+.Bmi_title {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 900;
+        text-align: center;
+}
+
+.Bmi_discrition {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        width: 600px;
+        margin: 0 auto;
+}
+
+.bmi_subtitle {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 900;
+}
+
+.bmi_body {
+        background: rgb(34, 34, 34);
+        width: 1400px;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 20px;
+}
+
+table {
+        width: 20%;
+        border-collapse: collapse;
+        margin: 10px 30px;
+        padding: 10px;
+        font-size: 12px;
+        text-align: left;
+}
+
+th,
+td {
+        padding: 12px;
+        border: 1px solid #ddd;
+}
+
+th {
+        background-color: #f2f2f2;
+}
+
+.bmi_body {
+        width: 1440px;
+        height: 811px;
+}
+
+form {
+        display: flex;
+}
+
+.form-container {
+        width: 300px;
+        margin: 0 auto;
+}
+
+.form-container label {
+        display: block;
+        margin: 10px 0 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container input[type="password"],
+.form-container input[type="date"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+}
+
+.form-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+}
+
+.form-container button:hover {
+        background-color: #45a049;
+}
+
+.Team_section {
+        width: 1060px;
+        height: 782px;
+        margin: 0 auto;
+}
+
+.tem_title {
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 900;
+        text-align: center;
+}
+
+.tem_discrition {
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+}
+
+/* Bmi styling end here */
 
 /* main section end here  */
 
